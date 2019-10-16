@@ -25,7 +25,7 @@ public class BoardController {
 	@ResponseBody
 	@RequestMapping(value="/write", method=RequestMethod.GET)
 	public String write() {
-		return "/WEB-INF/views/board/write.jsp";
+		return "board/write";
 	}
 	
 	@ResponseBody
